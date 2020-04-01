@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  height: 100vh;
+  font-family: 'IM Fell French Canon', serif;
+  letter-spacing: 2px;
+  font-family: 'Averia Libre', cursive;
 }
 
 .App-logo {

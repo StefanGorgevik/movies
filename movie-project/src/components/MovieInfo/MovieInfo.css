@@ -1,0 +1,18 @@
+.mvi-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 8%;
+}
+
+.mvi-div ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.mvi-div ul li{
+    list-style: none;
+    font-size: 24px;
+}

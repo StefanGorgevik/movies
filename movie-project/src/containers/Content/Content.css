@@ -1,0 +1,5 @@
+.content-div {
+    display: flex;
+    min-height: 75%;
+    border: 2px solid brown;
+}

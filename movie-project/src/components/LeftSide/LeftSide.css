@@ -1,0 +1,11 @@
+.ls-div {
+    width: 30%;
+    /* border: 1px solid yellow; */
+    min-height: 100%;
+}
+
+.ls-div a {
+    font-size: 22px;
+    color: black;
+    height: 15%;
+}

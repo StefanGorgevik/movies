@@ -1,0 +1,23 @@
+.input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.input-form input {
+    width: 25%;
+    height: 40px;
+}
+
+.input-form label {
+    font-size: 22px;
+    width: 12%;
+}
+
+.input-form button {
+    height: 40px;
+    width: 8%;
+    margin: 0 10px;
+}

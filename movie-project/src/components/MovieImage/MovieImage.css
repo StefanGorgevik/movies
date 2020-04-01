@@ -1,0 +1,11 @@
+.mi-div {
+    width: 100%;
+    height: 83%;
+}
+
+.mi-div img {
+    margin: 10px;
+    height: 100%;
+    width: 85%;
+    border: 22px solid rgb(34, 31, 31);
+}
