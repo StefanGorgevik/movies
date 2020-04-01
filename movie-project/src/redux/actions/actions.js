@@ -11,3 +11,16 @@ export function isMovieLoaded(bool) {
         payload: bool
     }
 }
+export function movieFound(bool) {
+    return {
+        type: "MOVIE_FOUND",
+        payload: bool
+    }
+}
+
+export function categorySelected(cat) {
+    return {
+        type: "CATEGORY_SELECTED",
+        payload: cat
+    }
+}

@@ -1,0 +1,28 @@
+.cast-table {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cast-table thead tr th{
+    border: 2px dashed black;
+    font-size: 28px;
+    font-size: bold 700;
+    font-family: 'Averia Libre', cursive;
+}
+
+.cast-table tbody tr {
+    height: 30px;
+    font-size: 26px;
+}
+.cast-table tbody tr td{
+    height: 30px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.cast-div p{
+    margin: 50px auto;
+    font-size: 40px;
+    letter-spacing: 4px;
+}

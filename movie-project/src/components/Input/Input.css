@@ -2,22 +2,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%;
+    height: 12%;
     width: 100%;
 }
 
 .input-form input {
-    width: 25%;
+    background-color: rgba(53, 43, 43, 0.479);
+    border: 1px solid black;
+    min-width: 45%;
     height: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
 }
 
 .input-form label {
     font-size: 22px;
-    width: 12%;
+    min-width: 12%;
+    margin-right: 10px;
 }
 
 .input-form button {
+    background-color: rgba(53, 43, 43, 0.479);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
     height: 40px;
-    width: 8%;
+    min-width: 15%;
     margin: 0 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    color:white;
 }

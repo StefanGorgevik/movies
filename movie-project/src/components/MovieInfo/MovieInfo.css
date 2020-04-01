@@ -16,3 +16,8 @@
     list-style: none;
     font-size: 24px;
 }
+.mvi-div ul li span{
+    border-bottom: 1px solid black;
+    font-size: 27px;
+    font-weight: bold;
+}

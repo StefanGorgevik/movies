@@ -12,10 +12,12 @@ function LeftSide(props) {
         <div className="ls-div">
             {props.isLoaded ?
                 <>
-                    <MovieImage image={props.movie.poster} />
+                    <MovieImage image={props.movie.poster} isLoaded={props.isLoaded} movieFound={props.movieFound} />
+                    {link.length !== 0 ?
                     <a href={link} target="_blank"
                         rel="noopener noreferrer">
                         Watch trailer on imbd</a>
+                        : null}
                 </>
                 : null}
         </div>
@@ -25,7 +27,8 @@ function LeftSide(props) {
 function mapStateToProps(state) {
     return {
         movie: state.movie,
-        isLoaded: state.isLoaded
+        isLoaded: state.isLoaded,
+        movieFound: state.movieFound
     }
 }
 

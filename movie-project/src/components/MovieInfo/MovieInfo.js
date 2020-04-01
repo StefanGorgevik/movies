@@ -9,19 +9,19 @@ function MovieInfo(props) {
         {props.isLoaded ? 
             <ul>
                 <li>
-                    Title: {movie.title}
+                    Title: <span>{movie.title}</span>
                 </li>
                 <li>
-                    Year: {movie.year}
+                    Year: <span>{movie.year}</span>
                 </li>
                 <li>
-                    Length: {movie.length}
+                    Length: <span>{movie.length}</span>
                 </li>
                 <li>
-                    IMBD Rating: {movie.rating}
+                    IMBD Rating: <span>{movie.rating}</span>
                 </li>
                 <li>
-                    IMBD Votes: {movie.rating_votes}
+                    IMBD Votes: <span>{movie.rating_votes}</span>
                 </li>
             </ul>
             : <p>Search for a movie</p>}

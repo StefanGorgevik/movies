@@ -1,10 +1,10 @@
 import React from 'react'
-import './Plot'
+import './Plot.css'
 
 function Plot(props) {
     return (
         <div className="plot-div">
-            <p>{props.plot}</p>
+                <p>{props.plot}</p>
         </div>
     )
 }

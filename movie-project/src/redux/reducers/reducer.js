@@ -1,6 +1,8 @@
 const initState = {
     isLoaded: false, 
-    movie: {}
+    movieFound: true,
+    movie: {},
+    categorySelected: 'plot'
 }
 
 const reducer = (state = initState, action) => {
@@ -10,6 +12,12 @@ const reducer = (state = initState, action) => {
         }
         case "MOVIE_IS_LOADED": {
             return {...state, isLoaded: action.payload}
+        }
+        case "MOVIE_FOUND": {
+            return {...state, movieFound: action.payload}
+        }
+        case "CATEGORY_SELECTED": {
+            return {...state, categorySelected: action.payload}
         }
         default: {
             return state;
